@@ -1,0 +1,26 @@
+import DashboardLayout from "@/components/layout/dashboard-layout";
+import Head from "next/head";
+import React, { ReactElement } from "react";
+
+const Settings = () => {
+  return (
+    <>
+      <Head>
+        <title>Settings | Class Portal</title>
+      </Head>
+      <main className="p-5">
+        <div className="flex justify-between">
+          <div>
+            <h1 className="font-bold text-3xl">Settings</h1>
+          </div>
+        </div>
+      </main>
+    </>
+  );
+};
+
+Settings.getLayout = function getLayout(page: ReactElement) {
+  return <DashboardLayout>{page}</DashboardLayout>;
+};
+
+export default Settings;
