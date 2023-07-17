@@ -1,4 +1,4 @@
-import DashboardLayout from '@/components/layout/dashboard-layout'
+import DashboardLayout from '@/components/layout/dashboard/dashboard-layout'
 import Head from 'next/head'
 import React, { ReactElement } from 'react'
 
